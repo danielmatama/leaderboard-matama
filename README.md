@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- [Live Demo Link]().
+- [Live Demo Link](https://danielmatama.github.io/leaderboard-matama/).
 
 ## Getting Started
 
