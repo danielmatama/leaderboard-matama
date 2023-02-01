@@ -1,13 +1,23 @@
 import './style.css';
-import {
-  addBtn,
-} from './Modules/itemDeclaration.js';
-import { Score } from './Modules/scores.js';
+import AddScore from './Modules/addScores.js';
+import fetchScores from './Modules/fetchScores.js';
 
-const availableScore = new Score();
+const form = document.forms[0];
+const scoreList = document.querySelector('.list');
+const refreshBtn = document.querySelector('.refresh');
+const message = document.querySelector('.alert');
 
-document.addEventListener('DOMContentLoaded', () => {
-  availableScore.displayItem();
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const user = {
+    name: form.name.value,
+    score: form.score.value,
+  };
+
+  AddScore(user, message);
+  form.reset();
 });
 
-addBtn.addEventListener('click', availableScore.addScore);
+refreshBtn.addEventListener('click', () => {
+  fetchScores(scoreList);
+});
