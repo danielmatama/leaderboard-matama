@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+#list {
+  border: 1px solid black;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scores-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.heading {
+  display: flex;
+  gap: 1rem;
+}
+
+#btn-refresh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leader-board {
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+}
+
+.availableScore {
+  display: flex;
+  justify-content: space-between;
+  gap: 8.5rem;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.availableScore:nth-child(even) {
+  background-color: #eee;
+}
+
+.availableScore:nth-child(odd) {
+  background-color: #fff;
+}
+
+button {
+  box-shadow: 2px 2px black;
+}
+
+#btn {
+  float: right;
+}
