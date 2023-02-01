@@ -56,9 +56,9 @@
 
 > Listed below are the key features of my webpage.
 
-- **[Add name]**
-- **[Add Score]**
-- **[Score display]**
+- **[Add name and score]**
+- **[Submit score]**
+- **[Score display/Refresh]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +68,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]( https://danielmatama.github.io/leaderboard-matama/)
+- [Live Demo Link](https://danielmatama.github.io/leaderboard-matama/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +144,7 @@ Example command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Leaderboard API service]**
+- [ ] **[Cool styles]**
 - [ ] **[]**
 - [ ] **[]**
 
