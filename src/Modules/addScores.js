@@ -18,3 +18,4 @@ const AddScore = async (user, message) => {
 };
 
 export default AddScore;
+
