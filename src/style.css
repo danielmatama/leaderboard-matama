@@ -11,8 +11,7 @@ body {
 
 .main-section {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 4rem;
 }
 
 .scores-section {
@@ -34,7 +33,6 @@ body {
 .leader-board {
   display: inline-block;
   vertical-align: top;
-  margin: auto;
 }
 
 .availableScore {
