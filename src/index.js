@@ -18,6 +18,12 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
+[form.name, form.score].forEach((input) => {
+  input.addEventListener('focus', () => {
+    message.classList.remove('show');
+  });
+});
+
 refreshBtn.addEventListener('click', () => {
   fetchScores(scoreList);
 });
